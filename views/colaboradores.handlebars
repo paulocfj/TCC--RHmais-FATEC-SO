@@ -1,0 +1,14 @@
+
+    {{#each colaboradores}}
+    <div class="card mt-5">
+        <div class="card-header">
+            {{dataValues.cargo}}
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{dataValues.nome}}</h5>
+            <p>{{dataValues.setor.dataValues.nome}}</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    {{/each}}
